@@ -3,7 +3,7 @@
 - Criar imagem com ambiente para execução de testes protractor
 
 ```sh
-docker build -t teste-protractor:1
+docker build -t teste-protractor:1 .
 ```
 - Executar container
 
