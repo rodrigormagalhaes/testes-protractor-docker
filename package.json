@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-beautiful-reporter": "^1.2.5"
+  }
+}

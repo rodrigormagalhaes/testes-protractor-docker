@@ -24,5 +24,5 @@ RUN apt-get update && apt-get -y install google-chrome-stable
 # define como default
 WORKDIR /testes
 
-# inicia selenium server quando o container rodar
-ENTRYPOINT webdriver-manager start
+# instala as dependências presentes no package.json e inicia selenium server quando o container rodar
+ENTRYPOINT npm install && webdriver-manager start

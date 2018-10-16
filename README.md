@@ -8,7 +8,7 @@ docker build -t teste-protractor:1 .
 - Executar container
 
 ```sh
-docker run --name teste-protractor --rm -it -p 4444:4444 -v {workdir}/testes:/testes teste-protractor:1 /bin/bash
+docker run --name teste-protractor --rm -it -p 4444:4444 -v {workdir}:/testes teste-protractor:1 /bin/bash
 ```
 
 - Entrar no container
@@ -20,5 +20,9 @@ docker exec -it teste-protractor /bin/bash
 - Executar testes
 
 ```sh
-protractor conf.js
+protractor testes/conf.js
 ```
+
+- Acessar relatórios
+    - /report/report.html
+
