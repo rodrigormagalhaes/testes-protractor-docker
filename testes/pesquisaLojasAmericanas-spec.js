@@ -5,8 +5,7 @@ describe('site lojas americanas', function() {
 
       browser.get('https://www.americanas.com.br');
         
-      //clica em Learn usando selector css
-      element(by.id('h_search-input')).click();
+      //clica no campo de busca selector css
       element(by.id('h_search-input')).sendKeys('iphone');
       element(by.id('h_search-btn')).click();
    
