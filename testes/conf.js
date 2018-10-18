@@ -7,13 +7,13 @@ var HtmlReporter = require('protractor-beautiful-reporter');
 
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['spec.js', 'todo-spec.js'],
+    specs: ['*.js'],
 
     capabilities: {
         browserName: 'chrome',
 
         chromeOptions: {
-            args: ["--headless", "--disable-gpu", "no-sandbox"]
+            args: ["--disable-gpu", "no-sandbox"]
         }
     },
 
