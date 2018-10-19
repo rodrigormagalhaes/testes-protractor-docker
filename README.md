@@ -26,3 +26,6 @@ protractor testes/conf.js
 - Acessar relatórios
     - /report/report.html
 
+#### Referências
+- [Protractor](https://www.protractortest.org/#/) 
+- [Docker](https://www.docker.com/)
